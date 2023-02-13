@@ -2,10 +2,8 @@
 
 @media screen and (min-width: 768px) {
     body {
-        width: 768px;
-        max-width: 100%;
-
-        overflow-x: hidden;
+        /* width: 768px; */
+        width: 100%;
 
         background-image: url("./images/image-hero-tablet.png");
         background-repeat: no-repeat;
@@ -59,6 +57,12 @@
     .card-text-container {
         padding: 40px 20px 0 0;
     }
+
+    footer {
+        /* width: 768px;
+        height: 120px; */
+        padding: 20px 40px;
+    }
     
 }
 
@@ -67,10 +71,8 @@
 
 @media screen and (min-width: 1024px) {
     body {
-        width: 1440px;
-        max-width: 100%;
-
-        overflow-x: hidden;
+        /* width: 1024px; */
+        width: 100%;
 
         background-image: url("./images/image-hero-desktop.png");
         background-repeat: no-repeat;
@@ -116,6 +118,11 @@
         margin-top: 285px;
         justify-content: center;
         align-items: center;
+    }
+    footer {
+        /* width: 1440px;
+        height: 120px; */
+        padding: 32px 165px;
     }
 
     footer h2 {
